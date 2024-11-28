@@ -1,66 +1,19 @@
-## Foundry
+# EmployeeStorage  
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Overview  
+This project is based on the **Storage Exercise** from the [Base Learn documentation](https://docs.base.org/base-learn/docs/storage/storage-exercise/).  
 
-Foundry consists of:
+Built with **Foundry**, it demonstrates core Solidity storage concepts through the contract **EmployeeStorage.sol**, which implements:  
+- **setNumber**: Store a number in the contract.  
+- **getNumber**: Retrieve the stored number.  
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Deployment  
+- **Contract**: `EmployeeStorage.sol`  
+- **Network**: Base Sepolia Testnet  
+- **Development Framework**: Foundry  
 
-## Documentation
+## Note  
+This project is part of a learning exercise derived from the Base documentation and is intended for educational purposes.  
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## Progress  
+Badges Earned: 3 out of 13. 🎉  
